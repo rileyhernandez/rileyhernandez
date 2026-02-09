@@ -1,7 +1,8 @@
 # Hi, I'm Riley Hernandez 👋
-> Founding Robotics Engineer specializing in Embedded Systems, Real-Time Controls, and Cloud Infrastructure.
+## Founding Robotics Software Engineer @ Caldo Restaurant Technologies
+> Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, industrial automation.
 
-[**📄 Download Resume (PDF)**](./riley-hernandez-resume.pdf) | [**🔗 LinkedIn**](https://linkedin.com/in/rileykhernandez) | [**🌐 Portfolio**](https://rileyhernandez.com)
+[**Download Resume (PDF)**](./riley-hernandez-resume.pdf) | [**LinkedIn**](https://linkedin.com/in/rileykhernandez) | [**Portfolio**](https://rileyhernandez.com)
 
 ---
 

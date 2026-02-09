@@ -67,7 +67,7 @@
 <table>
   <tr>
     <td width="50%">
-      <video src="https://drive.google.com/file/d/10lNNcMV-0HqR705uS-zQQMg-tG89jYIj/view" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
+      <video src="./caldo-ryo-demo.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
     </td>
     <td width="50%" valign="top">
       <h4>Technical Highlights</h4>

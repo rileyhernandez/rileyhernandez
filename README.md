@@ -67,6 +67,20 @@
 <table>
   <tr>
     <td width="50%">
+      <video src="https://drive.google.com/file/d/10lNNcMV-0HqR705uS-zQQMg-tG89jYIj/view" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Technical Highlights</h4>
+      <ul>
+        <li>Implemented <b>Multi-Load-Cell Sensor Fusion</b> in Rust to achieve precise portion control.</li>
+        <li>Developed a custom <b>Calibration Algorithm</b> using LU decomposition.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<!--<table>
+  <tr>
+    <td width="50%">
       <img src="https://via.placeholder.com/600x400?text=Tesla+Manufacturing+Demo" alt="Tesla Project Demo" style="border-radius: 8px;">
     </td>
     <td width="50%" valign="top">
@@ -78,7 +92,7 @@
       </ul>
     </td>
   </tr>
-</table>
+</table>-->
 
 ---
 

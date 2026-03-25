@@ -9,102 +9,42 @@
 
 ## 🛠️ Featured Portfolio
 
-### 1. Robotic Food Dispenser
-**The Goal:** Designing and implementing a precision robotic dispensing system capable of accurate portion control in high-vibration commercial kitchen environments for a variety.
+### 1. Robotic Food Dispenser (Caldo)
+**The Goal:** A robotic dispensing system for accurate portion control in high-vibration commercial kitchen environments for a variety of ingredients.
 
 * [**Control System**](https://github.com/rileyhernandez/node-diagnostics) - Core dispensing control logic.
-* [**Calibration and Commissioning App**](https://github.com/rileyhernandez/caldo-calibration) - Rust(Tauri)/Typescript/React based application for commissioning, calibration, and health diagnositics.
+* [**Calibration and Commissioning App**](https://github.com/rileyhernandez/caldo-calibration) - Rust  based application for commissioning, calibration, and health diagnositics (user interface built with Tauri/Typescript/React). Calibration process can tune device to different ingredient types, dispense amounts, precision, and speed, editing filter parameters and setpoints in local configuration files and syncing changes with the cloud.
 * [**On Device Application**](https://github.com/rileyhernandez/ichibui_dos) - Rust application for orchestrating dispensing module with auxillarly IO and user interactions (for operation/maintenance/cleaning) using Tauri/Typescript/React.
+* [**Integrated Device Demo (Ryo)**](https://drive.google.com/file/d/1zdWAV8C1D0xQd5xSYEUwLIbrXgmbfKFm/view?usp=drive_link) - Solution integrating multiple dispensing modules along with bag dispensing and sealing.
 
+**Hardware:** Linux SBC (ARM), load cells (w/ microcontroller-amplifier device), Teknic servos and controller, linear actuators, limit switches, photoeyes, touchscreen display, EtherCAT IO terminal, heating element, stepper motors, gantry.
 
-
-<table>
-  <tr>
-    <td width="50%">
-      <video src="./assets/caldo-ryo-intro.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Technical Highlights</h4>
-      <ul>
-        <li>Implemented <b>Multi-Load-Cell Sensor Fusion</b> in Rust to achieve precise portion control under dynamic conditions.</li>
-        <li>Developed a custom <b>Calibration Algorithm</b> using LU decomposition to automate sensor weight and offset detection.</li>
-        <li>Built an <b>OTA Infrastructure</b> on GCP for remote firmware tuning and device-specific calibration.</li>
-        <li>Optimized <b>Process Concurrency</b> using async runtimes and actor-model channels for deterministic control loop timing.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**Deployed Units:** 10
 
 ---
 
-### 2. Automated Bowl Denesting System
-**The Goal:** A novel electromechanical system designed to automate bowl dispensing for a robotic kitchen using a singular actuator and compliant design.
+### 2. Inventory Tracking System (Caldo)
+**The Goal:** A weight-based IOT solution for tracking food inventory for stockout alerts and analytics for determining usage patterns and optimizing ordering/restock scheduling.
 
-* [**Mechanical Design**](https://github.com/rileyhernandez) - Onshape CAD models and DFM documentation.
-* [**Control Logic Repo**](https://github.com/rileyhernandez) - Arduino-based position control and prototyping.
+* [**Scale Interface Library**](https://github.com/rileyhernandez/scale) - Rust crate for managing microcontrollers reading load cell data.
+* [**Device Management**](https://github.com/rileyhernandez/menu) - Rust crate for handling product lines, serial numbers, configuration files, and metadata.
+* [**Inventory Monitoring System**](https://github.com/rileyhernandez/libra-inventory) - Rust application for core inventory tracking logic detecting discrete changes in weight while filtering out noise and baseline drift.
+* [**Project Package**](https://github.com/rileyhernandez/libra-setup) - Debian package for configuring ARM SBCs for deployment.
+* [**Commissioning**](https://github.com/rileyhernandez/commission) - Rust application for commissioning inventory tracking devices including configuration file editing and generation, cloud syncing, and testing.
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://via.placeholder.com/600x400?text=Denesting+System+Demo" alt="Mezli Project Demo" style="border-radius: 8px;">
-    </td>
-    <td width="50%" valign="top">
-      <h4>Technical Highlights</h4>
-      <ul>
-        <li>Engineered a <b>compliance-based denesting system</b> to reduce mechanical complexity and component count.</li>
-        <li>Conducted <b>Design of Experiments (DOE)</b> to optimize material selection for aesthetic plating and food waste reduction.</li>
-        <li>Coordinated with <b>international manufacturers</b> to minimize fabrication costs for scalable production.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**Hardware:** Linux SBC (ARM), load cells (w/ microcontroller-amplifier devices).
+
+**Deployed Units:** 48
 
 ---
 
-### 3. Robotic Sealing & Inspection Systems
-**The Goal:** Industrial automation solutions for automotive manufacturing, including pneumatic actuation and LiDAR-based quality inspection.
+### 3. Smart Plugs (Personal)
+**The Goal:** Embedded devices for controlling lamps via smart phone.
 
-* [**Actuation Design**](https://github.com/rileyhernandez) - SolidWorks prototypes for car body skid position control.
-* [**Inspection Systems**](https://github.com/rileyhernandez) - Gantry-mounted LiDAR integration for point cloud data analysis.
+* [**Orchestrator**](https://github.com/rileyhernandez/light-server) - Rust server for hosting frontend and handling MQTT communication with MCUs over WiFi. Can dynamically detect new clients at runtime.
+* [**Client**](https://github.com/rileyhernandez/light-client) - [Rust (Embassy)](https://embassy.dev/) client code for controlling relay modules.
 
-<table>
-  <tr>
-    <td width="50%">
-      <video src="./caldo-ryo-demo.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Technical Highlights</h4>
-      <ul>
-        <li>Implemented <b>Multi-Load-Cell Sensor Fusion</b> in Rust to achieve precise portion control.</li>
-        <li>Developed a custom <b>Calibration Algorithm</b> using LU decomposition.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-<!--<table>
-  <tr>
-    <td width="50%">
-      <img src="https://via.placeholder.com/600x400?text=Tesla+Manufacturing+Demo" alt="Tesla Project Demo" style="border-radius: 8px;">
-    </td>
-    <td width="50%" valign="top">
-      <h4>Technical Highlights</h4>
-      <ul>
-        <li>Designed a <b>compressed air preparation system</b> for high-precision material delivery to robotic arms.</li>
-        <li>Integrated <b>LiDAR point cloud analysis</b> to automate quality inspection of car body skids.</li>
-        <li>Managed <b>PLC and electrical cabinet</b> incorporation with third-party contractors for factory-wide infrastructure.</li>
-      </ul>
-    </td>
-  </tr>
-</table>-->
+**Hardware:** local server, RP2040 microcontroller, CYW43439 WiFi chip, solid state relay (AC-AC 50A 24-240VAC)
 
----
-
-## 📊 GitHub Stats & Skills
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rileyhernandez&layout=compact&theme=vision-friendly-dark)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rileyhernandez&theme=vision-friendly-dark)
-
-**Core Languages:** Rust (tokio, serde), Python (Flask, NumPy), TypeScript (Node.js, Next.js), F#, Gleam
-**Hardware/Tools:** Onshape, 3D Printing (FDM, SLA), Circuit Prototyping, DFM/DFA, Linux (Embedded/Server), GCP
-
----
-*Built with ❤️ and clean code.*
+<!-----
+*Built with ❤️ and clean code.*-->

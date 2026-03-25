@@ -1,7 +1,7 @@
 # Hi, I'm Riley Hernandez 👋
 > WIP! Sorry if you're here early, but hope to have it completed soon.
 ## Founding Robotics Software Engineer @ Caldo Restaurant Technologies
-> Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, industrial automation.
+> Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, and industrial automation.
 
 [**Download Resume (PDF)**](./riley-hernandez-resume.pdf) | [**LinkedIn**](https://linkedin.com/in/rileykhernandez) | [**Portfolio**](https://rileyhernandez.com)
 
@@ -17,7 +17,7 @@
 * [**On Device Application**](https://github.com/rileyhernandez/ichibui_dos) - Rust application for orchestrating dispensing module with auxillarly IO and user interactions (for operation/maintenance/cleaning) using Tauri/Typescript/React.
 * [**Integrated Device Demo (Ryo)**](https://drive.google.com/file/d/1zdWAV8C1D0xQd5xSYEUwLIbrXgmbfKFm/view?usp=drive_link) - Solution integrating multiple dispensing modules along with bag dispensing and sealing.
 
-**Hardware:** Linux SBC (ARM), load cells (w/ microcontroller-amplifier device), Teknic servos and controller, linear actuators, limit switches, photoeyes, touchscreen display, EtherCAT IO terminal, heating element, stepper motors, gantry.
+**Hardware:** Linux SBC (ARM), load cells (w/ microcontroller-amplifier device), conveyors, Teknic servos and controller, linear actuators, limit switches, photoeyes, touchscreen display, EtherCAT IO terminal, heating element, stepper motors, gantry.
 
 **Deployed Units:** 10
 

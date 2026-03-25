@@ -1,4 +1,5 @@
 # Hi, I'm Riley Hernandez 👋
+> WIP! Sorry if you're here early, but hope to have it complete soon.
 ## Founding Robotics Software Engineer @ Caldo Restaurant Technologies
 > Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, industrial automation.
 
@@ -8,17 +9,19 @@
 
 ## 🛠️ Featured Portfolio
 
-### 1. Caldo Robotic Food Dispenser
-**The Goal:** Designing and implementing a precision robotic dispensing system capable of accurate portion control in high-vibration commercial kitchen environments.
+### 1. Robotic Food Dispenser
+**The Goal:** Designing and implementing a precision robotic dispensing system capable of accurate portion control in high-vibration commercial kitchen environments for a variety.
 
-* [**Embedded Systems Repo**](https://github.com/rileyhernandez) - Real-time Rust control loops and sensor fusion.
-* [**Cloud & OTA Repo**](https://github.com/rileyhernandez) - GCP-integrated bidirectional communication and remote configuration.
-* [**Commissioning Tool Repo**](https://github.com/rileyhernandez) - TypeScript/React/Tauri dashboard for live telemetry and calibration.
+* [**Control System**](https://github.com/rileyhernandez/node-diagnostics) - Core dispensing control logic.
+* [**Calibration and Commissioning App**](https://github.com/rileyhernandez/caldo-calibration) - Rust(Tauri)/Typescript/React based application for commissioning, calibration, and health diagnositics.
+* [**On Device Application**](https://github.com/rileyhernandez/ichibui_dos) - Rust application for orchestrating dispensing module with auxillarly IO and user interactions (for operation/maintenance/cleaning) using Tauri/Typescript/React.
+
+
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://via.placeholder.com/600x400?text=Robotic+Dispenser+Demo" alt="Caldo Robotics Demo" style="border-radius: 8px;">
+      <video src="./assets/caldo-ryo-intro.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
     </td>
     <td width="50%" valign="top">
       <h4>Technical Highlights</h4>

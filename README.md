@@ -1,5 +1,5 @@
 # Hi, I'm Riley Hernandez 👋
-> WIP! Sorry if you're here early, but hope to have it complete soon.
+> WIP! Sorry if you're here early, but hope to have it completed soon.
 ## Founding Robotics Software Engineer @ Caldo Restaurant Technologies
 > Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, industrial automation.
 
@@ -31,6 +31,7 @@
 * [**Inventory Monitoring System**](https://github.com/rileyhernandez/libra-inventory) - Rust application for core inventory tracking logic detecting discrete changes in weight while filtering out noise and baseline drift.
 * [**Project Package**](https://github.com/rileyhernandez/libra-setup) - Debian package for configuring ARM SBCs for deployment.
 * [**Commissioning**](https://github.com/rileyhernandez/commission) - Rust application for commissioning inventory tracking devices including configuration file editing and generation, cloud syncing, and testing.
+* [**Demo**](https://drive.google.com/file/d/19qYo45nozo5H124iB1lDX8J7dwX0Ugta/view?usp=drive_link) - Early proof of concept for product.
 
 **Hardware:** Linux SBC (ARM), load cells (w/ microcontroller-amplifier devices).
 
@@ -46,5 +47,11 @@
 
 **Hardware:** local server, RP2040 microcontroller, CYW43439 WiFi chip, solid state relay (AC-AC 50A 24-240VAC)
 
-<!-----
-*Built with ❤️ and clean code.*-->
+---
+
+### 4. Other
+* **Linux From Scratch** - Building a custom Linux system from source code on an immutable host ([Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)) inside an isolated container environment (Distrobox).
+* **Kernel Development** - Learning Linux kernel and driver development using Rust for Linux (RFL).
+
+---
+*Built with 🫶 in Oakland, California, USA.*

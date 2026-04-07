@@ -50,8 +50,10 @@
 ---
 
 ### 4. Other
+* **[Mezli](https://sf.eater.com/2022/8/17/23308389/mezli-robot-restaurant-open-menu-san-francisco)** - Former engineer at world's first fully automated restaurant.
 * **Linux From Scratch** - Building a custom Linux system from source code on an immutable host ([Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)) inside an isolated container environment (Distrobox).
 * **Kernel Development** - Learning Linux kernel and driver development using Rust for Linux (RFL).
+* **[Neurotechnology Research](https://rileyhernandez.notion.site/Neurowrist-d0f882f0f6ed4a40908ab01e4a7e4027)** - Designed and built an EMG wearable using biosignals for HCI. 
 
 ---
 *Built with 🫶 in Oakland, California, USA.*

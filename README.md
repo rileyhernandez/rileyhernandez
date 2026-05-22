@@ -13,7 +13,7 @@
 **The Goal:** A robotic dispensing system for accurate portion control in high-vibration commercial kitchen environments for a variety of ingredients.
 
 * [**Control System**](https://github.com/rileyhernandez/node-diagnostics) - Core dispensing control logic.
-* [**Calibration and Commissioning App**](https://github.com/rileyhernandez/caldo-calibration) - Rust  based application for commissioning, calibration, and health diagnositics (user interface built with Tauri/Typescript/React). Calibration process can tune device to different ingredient types, dispense amounts, precision, and speed, editing filter parameters and setpoints in local configuration files and syncing changes with the cloud.
+* [**Calibration and Commissioning App**](https://github.com/rileyhernandez/caldo-calibration) - Rust based application for commissioning, calibration, and health diagnositics (user interface built with Tauri/Typescript/React). Calibration process can tune device to different ingredient types, dispense amounts, precision, and speed, editing filter parameters and setpoints in local configuration files and syncing changes with the cloud.
 * [**On Device Application**](https://github.com/rileyhernandez/ichibui_dos) - Rust application for orchestrating dispensing module with auxillarly IO and user interactions (for operation/maintenance/cleaning) using Tauri/Typescript/React.
 * [**Integrated Device Demo (Ryo)**](https://drive.google.com/file/d/1zdWAV8C1D0xQd5xSYEUwLIbrXgmbfKFm/view?usp=drive_link) - Solution integrating multiple dispensing modules along with bag dispensing and sealing.
 
@@ -46,10 +46,17 @@
 * [**Client**](https://github.com/rileyhernandez/light-client) - [Rust (Embassy)](https://embassy.dev/) client code for controlling relay modules.
 
 **Hardware:** local server, RP2040 microcontroller, CYW43439 WiFi chip, solid state relay (AC-AC 50A 24-240VAC)
+git push -u origin main
 
 ---
 
-### 4. Other
+### 4. Personal Tools
+* [**copypasta**](https://github.com/rileyhernandez/copypasta) - A native clipboard manager app for saving frequently used snippets for easy access (Rust, GTK, Relm4).
+* [**sudonim**](https://github.com/rileyhernandez/sudonim) - A command-line tool for managing your ssh devices (Rust).
+
+---
+
+### 5. Other
 * **[Mezli](https://sf.eater.com/2022/8/17/23308389/mezli-robot-restaurant-open-menu-san-francisco)** - Former engineer at world's first fully automated restaurant.
 * **Linux From Scratch** - Building a custom Linux system from source code on an immutable host ([Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)) inside an isolated container environment (Distrobox).
 * **Kernel Development** - Learning Linux kernel and driver development using Rust for Linux (RFL).

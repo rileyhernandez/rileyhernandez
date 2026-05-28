@@ -52,6 +52,7 @@ git push -u origin main
 
 ### 4. Personal Tools
 * [**copypasta**](https://github.com/rileyhernandez/copypasta) - A native clipboard manager app for saving frequently used snippets for easy access (Rust, GTK, Relm4).
+* [**init**](https://github.com/rileyhernandez/init) - A personal tool for setting up new projects inside containers with Zed config and a command runner (Rust).
 * [**tagger**](https://github.com/rileyhernandez/tagger) - A web application using Spotify's API for creating custom tags for tracks and using them for filtering and creating queues (Rust, Axum).
 * [**sudonim**](https://github.com/rileyhernandez/sudonim) - A command-line tool for managing your ssh devices (Rust).
 

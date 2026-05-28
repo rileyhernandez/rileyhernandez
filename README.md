@@ -1,5 +1,4 @@
 # Hi, I'm Riley Hernandez 👋
-> WIP! Sorry if you're here early, but hope to have it completed soon.
 ## Founding Robotics Software Engineer @ Caldo Restaurant Technologies
 > Robotics engineer interested in the full stack of hardware products with a background in food robotics, wearables, and industrial automation.
 
